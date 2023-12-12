@@ -14,11 +14,33 @@ public class Student {
 
     }
     public Student(){
-        this.studentName = "";
-        this.studentAge = 0;
-        this.studentID = 0;
-        this.studentAddress = "";
+
     }
+public String getStudentName(){
+        return studentName;
+}
+public String getStudentAddress(){
+        return studentAddress;
+}
+public int getStudentID(){
+        return studentID;
+}
+public int getStudentAge(){
+        return studentAge;
+}
+
+public void setStudentID(int studentID){
+        this.studentID = studentID;
+}
+public void setStudentName(String studentName){
+        this.studentName = studentName;
+}
+public void setStudentAge(int studentAge){
+        this.studentAge = studentAge;
+}
+public void setStudentAddress(String studentAddress){
+        this.studentAddress = studentAddress;
+}
 
     @Override
     public String toString() {
